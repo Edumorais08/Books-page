@@ -29,3 +29,45 @@
     font-size: 14px;
     font-weight: 700;
 }
+
+@media screen and (min-width: 1024px) {
+
+    .topicos__titulo {
+        font-size: 24px;
+        padding: 1em;
+    }
+
+    .topicos__link {
+        font-size: 24px;
+    }
+
+    .topicos__lista {
+        width: 75%;
+        margin: 0 auto;
+        margin-bottom: 1.5em;
+    }
+
+    .topicos__python {
+        order: 6;
+    }
+    
+    .topicos__java {
+        order: 5;
+    }
+
+    .topicos__html {
+        order: 4;
+    }
+
+    .topicos__startups {
+        order: 3;
+    }
+
+    .topicos__agile {
+        order: 2;
+    }
+
+    .topicos__marketing {
+        order: 1;
+    }
+}
