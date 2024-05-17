@@ -71,3 +71,15 @@
         order: 1;
     }
 }
+
+@media screen and (min-width: 1728px) {
+
+    .topicos {
+        padding-top: 3em ;
+    }
+
+    .topicos__lista {
+        width: 45%;
+    }
+
+}

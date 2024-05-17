@@ -17,7 +17,7 @@
     <header class="cabecalho">
         <div class="container">
             <input type="checkbox" id="menu" class="container__botao">
-            <label for="menu">
+            <label for="menu" class="container__rotulo">
                 <span class="cabecalho__menu-hamburguer container__imagem"></span>
             </label>
             <ul class="lista-menu">
@@ -71,9 +71,17 @@
         </ul>
 
         <div class="container">
-            <a href="#"><img src="assets/Favoritos.svg" alt="Meus favoritos" class="container__imagem container__imagem-transparente"></a>
-            <a href="#"><img src="assets/Compras.svg" alt="Carrinho de compras" class="container__imagem"></a>
-            <a href="#"><img src="assets/Usuario.svg" alt="Meu perfil" class="container__imagem"></a>
+            <a href="#">
+                <img src="assets/Favoritos.svg" alt="Meus favoritos" class="container__imagem container__imagem-transparente">
+            </a>
+            <a href="#" class="container__link">
+                <img src="assets/Compras.svg" alt="Carrinho de compras" class="container__imagem">
+                <p class="container__texto">Minha Sacola</p>
+            </a>
+            <a href="#" class="container__link">
+                <img src="assets/Usuario.svg" alt="Meu perfil" class="container__imagem">
+                <p class="container__texto">Meu perfil</p>
+            </a>
         </div>
     </header>
     <section class="banner">
@@ -83,6 +91,8 @@
     </section>
     <section class="carrossel">
         <h2 class="carrossel__titulo">Últimos Lançamentos</h2>
+
+        <div class="carrossel__container">
         <div class="swiper">
             <!-- Additional required wrapper -->
             <!-- If we need pagination -->
@@ -128,9 +138,13 @@
                 <a href="#" class="botoes__ancora">Saiba mais</a>
             </div>
           </div>
-
-          <section class="carrossel">
+        </div>
+    </section>
+        
+        <section class="carrossel">
             <h2 class="carrossel__titulo">mais vendidos</h2>
+            
+            <div class="carrossel__container">
             <div class="swiper">
                 <!-- Additional required wrapper -->
                 <!-- If we need pagination -->
@@ -177,7 +191,8 @@
                     <a href="#" class="botoes__ancora">Saiba mais</a>
                 </div>
               </div>
-    </section>
+            </div>
+        </section>
 
     <section class="topicos">
         <h2 class="topicos__titulo">TÓPICOS VISITADOS RECENTEMENTE</h2>
